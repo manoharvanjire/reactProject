@@ -1,0 +1,56 @@
+.img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.details {
+  text-align: center;
+  background-color: crimson;
+}
+.img-details {
+  text-align: center;
+}
+
+.discription {
+  text-align: center;
+}
+.card {
+  position: relative;
+  display: block;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 400px;
+  margin-bottom: 225px;
+}
+.card :hover.details {
+  text-align: center;
+  background-color: crimson;
+  z-index: -1;
+}
+.tank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+  margin-bottom: 40px;
+}
+.input {
+  min-width: 40%;
+  height: 35px;
+  border-radius: 50px;
+  border-color: goldenrod;
+  /* font-size: 20px; */
+  padding-left: 15px;
+  color: palevioletred;
+}
+.input::placeholder {
+  color: black;
+  margin-left: 20px;
+}
